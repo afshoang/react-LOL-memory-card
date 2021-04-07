@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#header-img {
+  min-height: 160px;
+  min-width: 300px;
+}
+
+.content {
+  margin-top: -30px;
+  color: #edb852;
+}
+
+.score {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
