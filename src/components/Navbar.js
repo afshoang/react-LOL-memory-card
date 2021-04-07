@@ -7,6 +7,8 @@ const Navbar = ({ score, bestScore }) => {
         <img src='/champions/logo.png' id='header-img' alt='logo' />
         <div className='content'>Memory Game</div>
 
+        <p>Hướng dẫn: Tích điểm bằng cách chọn 1 tướng 1 lần duy nhất</p>
+
         <div className='score'>
           <span>Score: {score}</span>
           <span>Best Score: {bestScore}</span>
