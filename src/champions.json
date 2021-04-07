@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name": "zed",
+        "image": "/champions/zed.jpg",
+        "clicked": false
+    },
+    {
+        "id":2,
+        "name": "thresh",
+        "image": "/champions/thresh.jpg",
+        "clicked": false
+    },
+    {
+        "id":3,
+        "name": "ryze",
+        "image": "/champions/ryze.jpg",
+        "clicked": false
+    },
+    {
+        "id":4,
+        "name": "rumble",
+        "image": "/champions/rumble.jpg",
+        "clicked": false
+    },
+    {
+        "id":5,
+        "name": "mordekaiser",
+        "image": "/champions/mordekaiser.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "lux",
+        "image": "/champions/lux.jpg",
+        "clicked": false
+    },
+    {
+        "id":7,
+        "name": "lucian",
+        "image": "/champions/lucian.jpg",
+        "clicked": false
+    },
+    {
+        "id":8,
+        "name": "jinx",
+        "image": "/champions/jinx.jpg",
+        "clicked": false
+    },
+    {
+        "id":9,
+        "name": "jhin",
+        "image": "/champions/jhin.jpg",
+        "clicked": false
+    },
+    {
+        "id":10,
+        "name": "garen",
+        "image": "/champions/garen.jpg",
+        "clicked": false
+    },
+    {
+        "id":11,
+        "name": "fiora",
+        "image": "/champions/fiora.jpg",
+        "clicked": false
+    },
+    {
+        "id":12,
+        "name": "yasuo",
+        "image": "/champions/yasuo.jpg",
+        "clicked": false
+    }
+]
