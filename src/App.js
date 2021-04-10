@@ -1,16 +1,12 @@
 import { useState, useEffect } from 'react';
 import Card from './components/Card';
 import Navbar from './components/Navbar';
-import champions from './champions.json';
+import champions from './champions.js';
 
 function App() {
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
-  const [listChampions, setListChampions] = useState([]);
-
-  useEffect(() => {
-    setListChampions(champions);
-  }, []);
+  const [listChampions, setListChampions] = useState(champions);
 
   function shuffelChampions(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
@@ -64,7 +60,7 @@ function App() {
   return (
     <>
       <Navbar score={score} bestScore={bestScore} />
-      <div className='ui six column grid'>
+      <div className='container ui six column grid'>
         {shuffelChampions(listChampions).map((champion) => {
           return (
             <Card

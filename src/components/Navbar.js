@@ -4,7 +4,11 @@ const Navbar = ({ score, bestScore }) => {
   return (
     <div className='ui centered grid'>
       <h2 className='ui icon centered header'>
-        <img src='/champions/logo.png' id='header-img' alt='logo' />
+        <img
+          src={process.env.PUBLIC_URL + '/images/logo.png'}
+          id='header-img'
+          alt='logo'
+        />
         <div className='content'>Memory Game</div>
 
         <p>Hướng dẫn: Tích điểm bằng cách chọn 1 tướng 1 lần duy nhất</p>

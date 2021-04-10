@@ -10,7 +10,10 @@ const Card = ({ champion, handleClick }) => {
     <div className='column' onClick={() => handleClick(champion)}>
       <div className='ui fluid card'>
         <div className='image'>
-          <img src={champion.image} alt={champion.name} />
+          <img
+            src={process.env.PUBLIC_URL + champion.image}
+            alt={champion.name}
+          />
         </div>
         <div className='content ui'>
           <span className='header'>{captalize(champion.name)}</span>
